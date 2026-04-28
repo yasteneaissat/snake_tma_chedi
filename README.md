@@ -1,6 +1,6 @@
-# 🐍 SERPENT.EXE — Version Bêta
+# 🐍 SERPENT.EXE — Version 1.0
 
-> Application mobile de jeu Snake développée en Flutter/Dart .
+> Application mobile de jeu Snake développée en Flutter/Dart.
 
 ---
 
@@ -49,68 +49,6 @@ Le but est d'obtenir le meilleur score possible sans se mordre la queue.
 
 ---
 
-## 🐛 Bugs connus
-
-> Cette version est une version bêta. Les bugs suivants ont été identifiés et sont en cours de correction.
-
----
-
-### Bug 1 — Le bouton Sombre / Clair ne fonctionne pas
-**Ce qui se passe :** Quand on appuie sur le bouton pour changer de thème, rien ne se passe. L'application reste sur le thème sombre même si on clique plusieurs fois.
-
-**Ce qui devrait se passer :** L'application doit basculer entre le thème sombre et le thème clair à chaque appui sur le bouton.
-
----
-
-### Bug 2 — Les boutons Gauche et Droite du D-Pad sont invisibles
-**Ce qui se passe :** Sur l'écran de jeu, seuls les boutons Haut et Bas du D-Pad sont visibles et cliquables. Les boutons Gauche et Droite ont disparu de l'écran.
-
-**Ce qui devrait se passer :** Les 4 boutons directionnels doivent être visibles et permettre de diriger le serpent dans les 4 directions.
-
----
-
-### Bug 3 — Le bouton JOUER est trop grand
-**Ce qui se passe :** Sur l'écran du menu, le bouton JOUER prend toute la largeur de l'écran au lieu d'avoir une taille raisonnable et centrée.
-
-**Ce qui devrait se passer :** Le bouton doit avoir une largeur fixe et être centré sur l'écran comme les autres boutons.
-
----
-
-### Bug 4 — Aucun son ne se lance
-**Ce qui se passe :** Pendant toute l'application (menu, jeu, game over), aucune musique ne se lance. L'application est silencieuse.
-
-**Ce qui devrait se passer :** Une musique doit jouer sur le menu, une autre pendant la partie, et une dernière au Game Over.
-
----
-
-### Bug 5 — La pause bloque définitivement le jeu
-**Ce qui se passe :** Quand on met le jeu en pause, il est impossible de le reprendre. Le bouton "Reprendre" dans l'écran de pause ne fait rien. La seule option est de recommencer une nouvelle partie.
-
-**Ce qui devrait se passer :** Le bouton pause doit alterner entre mettre le jeu en pause et le reprendre là où on s'était arrêté.
-
----
-
-### Bug 6 — Le serpent peut traverser son propre corps
-**Ce qui se passe :** Quand le serpent se retrouve face à son propre corps, il le traverse sans mourir. Le jeu ne s'arrête jamais et le serpent peut passer à travers lui-même indéfiniment.
-
-**Ce qui devrait se passer :** Si la tête du serpent touche son propre corps, la partie doit se terminer et l'écran Game Over doit s'afficher.
-
----
-
-### Bug 7 — Le score devient négatif
-**Ce qui se passe :** À chaque fois que le serpent mange de la nourriture, au lieu de gagner des points, le score diminue et devient négatif.
-
-**Ce qui devrait se passer :** Manger de la nourriture doit augmenter le score du joueur selon la difficulté choisie.
-
----
-
-### Bug 8 — Le niveau ne monte jamais
-**Ce qui se passe :** Peu importe combien de nourritures le serpent mange, le niveau reste bloqué à 1 et la vitesse n'augmente jamais.
-
-**Ce qui devrait se passer :** Tous les 5 nourritures mangées, le niveau doit augmenter d'un et le serpent doit accélérer progressivement.
-
----
-
 ## 🛠️ Technologies utilisées
 
 - **Flutter** — Framework de développement mobile
@@ -144,4 +82,5 @@ flutter run -d chrome --web-renderer html
 
 ---
 
-*Version bêta
+*Version 1.0 — stable*
+
